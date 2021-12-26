@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ridedetails.css">
+</head>
+<body>
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+    </div>
+<div>
+ 
+  <form action="" class="form">
+        <br>
+        <br>
+        <br>
+        <h1>Contact Details </h1>
+        <p class="p1">Required fields are followed by * </p>
+        <p>Name* : <input type ="text" name ="name" required class="name"> </p>
+        <legend class="gender">Gender* </legend>
+        <p class="inputgender">
+            Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required>
+        </p>
+        <p class="contact">
+            Contact Number* : <input type="number" name="contact_number" id="contact_number"required>
+        </p>
+        
+        <h1>Ride Details :</h1>
+        <p class="cartype">Car Type* : </p>
+          <p>
+            <select name="card_type" id="card_type" required>
+                <option value="">Select your Car</option>
+                <option value="Scorpio">Scorpio</option>
+                <option value="SwiftDzire">Swift Dzire</option>
+                <option value="Fortuner">Fortuner</option>
+                <option value="Bentley">Bentley</option>
+                <option value="Mercedez">Mercedez</option>
+            </select>
+          </p>
+
+         <p>Source Location* :
+            <select name="source" id="source" required>
+                <option value="">Select your Source Location</option>
+                <option value="ClementTown">Clement Town</option>
+                <option value="ISBT">ISBT</option>
+                <option value="Ghantaghar">Ghantaghar</option>
+                <option value="MovieLounge">Movie Lounge</option>
+                <option value="PacificMall">Pacific Mall</option>
+                <option value="Graphic_Era_Hill_University">Graphic Era Hill University</option>
+            </select>
+         </p>
+         <p>Destination* :
+            <select name="source" id="source" required>
+                <option value="">Destination</option>
+                <option value="Sai_Boys_Hostel">Clement Town</option>
+                <option value="SC_Bose_Boys_Hostel">ISBT</option>
+                <option value="ISBT">Ghantaghar</option>
+                <option value="Musoorie">Musoorie</option>
+                <option value="Graphic_Era_Hill_University">Graphic Era Hill University</option>
+            </select>
+         </p>
+           
+            <p><label for="appt">Select Time:</label></p>
+            <p><input type="time" id="appt" name="appt"></p>
+         <p>
+             Date* : <input type="date" name="date" id="date"required>
+         </p>
+    
+         <p><input type="submit" value="Submit"></p>
+
+    </form>
+</div>
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">Akash Yadav</a>
+    </div>
+    
+  </footer>   
+   
+</body>
+</html>

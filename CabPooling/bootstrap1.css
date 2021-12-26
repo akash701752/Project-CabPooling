@@ -1,0 +1,100 @@
+.h1sec{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    
+    color: white;
+    width: 100%;
+    background-color: black;
+   padding-top: 0px;
+}
+.boxmiddle{
+    margin-top: 0px;
+    background-color: tomato;
+
+}
+
+.middle_sec{
+    background-color: white; 
+    margin-top: 0px; 
+   padding-top: 0px;
+}
+img{
+    border-radius: 50%;
+}
+.discimage{
+    /*border-radius: 10%;*/
+    height: 100%;
+    width: 400px;
+}
+.dis{
+    display: block;
+    margin-left: 510px;
+    
+    width: 300px;
+    height: 300px;
+
+}
+.h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+   padding-top: 0px;
+}
+.h1_why{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: black;
+   padding-top: 0px;
+   background-color: grey;
+}
+.list{
+    float: center;
+    text-indent: 35%;
+    list-style-type: none;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(219, 28, 28);
+}
+.book{
+    float: center;
+    text-indent: 40%;
+    color: white;
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+}
+.carlogo{
+    margin-left: 400px;
+}
+.about_us{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+   padding-top: 0px;
+   background-color: black;
+}
+.para{
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.support{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+   padding-top: 0px;
+   background-color: orangered;
+}
+.supp{
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
